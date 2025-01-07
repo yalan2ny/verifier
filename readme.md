@@ -1,8 +1,8 @@
-# contract-verifier
+tab# contract-verifier
 
 A UI app to display verified contract proofs and to submit Ton smart contract sources for on-chain verification.
 
-## Related repositories
+esc## Related repositories
 
 This repo is a part of the following:
 
@@ -15,7 +15,7 @@ This repo is a part of the following:
 
 This app is deployed via github actions on github pages for this repository.
 
-### Environment variables
+tab### Environment variables
 
 - `VITE_VERIFIER_ID` - id of the verifier registered with the verifier registry
 - `VITE_SOURCES_REGISTRY` / `VITE_SOURCES_REGISTRY_TESTNET` - sources registry to fetch data from
