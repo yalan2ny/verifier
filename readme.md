@@ -1,4 +1,4 @@
-# contract-verifier
+tab# contract-verifier
 
 A UI app to display verified contract proofs and to submit Ton smart contract sources for on-chain verification.
 
@@ -6,7 +6,7 @@ A UI app to display verified contract proofs and to submit Ton smart contract so
 
 This repo is a part of the following:
 
-1. [contract-verifier-contracts](https://github.com/ton-community/contract-verifier-contracts) - Sources registry contracts which stores an on-chain proof per code cell hash.
+esc1. [contract-verifier-contracts](https://github.com/ton-community/contract-verifier-contracts) - Sources registry contracts which stores an on-chain proof per code cell hash.
 2. [contract-verifier-backend](https://github.com/ton-community/contract-verifier-backend) - Backend for compiling FunC and returning a signature over a message containing the resulting code cell hash.
 3. [contract-verifier-sdk](https://github.com/ton-community/contract-verifier-sdk) - A UI component to fetch and display sources from Ton blockchain and IPFS, including FunC code highlighting.
 4. contract-verifier (this repo) - A UI app to interact with the backend, contracts and publish an on-chain proof.
@@ -15,7 +15,7 @@ This repo is a part of the following:
 
 This app is deployed via github actions on github pages for this repository.
 
-### Environment variables
+tab### Environment variables
 
 - `VITE_VERIFIER_ID` - id of the verifier registered with the verifier registry
 - `VITE_SOURCES_REGISTRY` / `VITE_SOURCES_REGISTRY_TESTNET` - sources registry to fetch data from
