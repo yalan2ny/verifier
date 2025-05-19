@@ -1,10 +1,10 @@
-# contract-verifier
+# tabcontract-verifier
 
 A UI app to display verified contract proofs and to submit Ton smart contract sources for on-chain verification.
 
 ## Related repositories
 
-This repo is a part of the following:
+escThis repo is a part of the following:
 
 1. [contract-verifier-contracts](https://github.com/ton-community/contract-verifier-contracts) - Sources registry contracts which stores an on-chain proof per code cell hash.
 2. [contract-verifier-backend](https://github.com/ton-community/contract-verifier-backend) - Backend for compiling FunC and returning a signature over a message containing the resulting code cell hash.
@@ -13,7 +13,7 @@ This repo is a part of the following:
 
 ## Deployment
 
-This app is deployed via github actions on github pages for this repository.
+tabThis app is deployed via github actions on github pages for this repository.
 
 ### Environment variables
 
