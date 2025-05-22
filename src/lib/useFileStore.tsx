@@ -53,8 +53,8 @@ export const useFileStore = create(
             folder: folders.slice(0, folders.length - 1).join("/"),
             hasIncludeDirectives: content.includes("#include"),
             isEntrypoint:
-              /\(\)\s*(recv_internal|main)\s*\(/.test(content) ||
-              /fun onInternalMessage\s*\(/.test(content),
+              /\(\)\s*(recv_internal|recv_external|main)\s*\(/.test(content) ||
+              /fun (onInternalMessage|onExternalMessage)\s*\(/.test(content),
             isStdlib: /stdlib.(fc|func)/i.test(f.name),
           };
         }),
