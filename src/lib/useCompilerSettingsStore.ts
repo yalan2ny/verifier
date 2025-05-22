@@ -180,7 +180,6 @@ export function useCompilerSettingsStore() {
         compilerStore.setCompilerSettings({ tactVersion: pkgParsed.compiler.version });
       } else if (tolkFile) {
         compilerStore.setCompiler("tolk");
-        compilerStore.setCompilerSettings({ tolkVersion: "0.12.0" });
       }
     })();
   }, [files]);
