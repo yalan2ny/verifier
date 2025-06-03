@@ -36,10 +36,6 @@ function jsonToBlob(json: Record<string, any>): Blob {
   });
 }
 
-// export const backends: string[] = window.isTestnet
-//   ? import.meta.env.VITE_BACKEND_URL_TESTNET!.split(",")
-//   : import.meta.env.VITE_BACKEND_URL_OVERRIDE!.split(",");
-
 const isTestnet = window.isTestnet;
 
 const useSubmitSourcesStatusStore = create<{
