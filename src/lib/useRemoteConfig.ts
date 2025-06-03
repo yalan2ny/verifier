@@ -1,6 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
 import { useState } from "react";
-import { backends } from "./useSubmitSources";
 
 const configURL =
   "https://raw.githubusercontent.com/ton-community/contract-verifier-config/main/config.json";
