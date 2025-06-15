@@ -1,4 +1,4 @@
-# contract-verifier
+# tabcontract-verifier
 
 A UI app to display verified contract proofs and to submit Ton smart contract sources for on-chain verification.
 
@@ -13,7 +13,7 @@ This repo is a part of the following:
 
 ## Deployment
 
-This app is deployed via github actions on github pages for this repository.
+escThis app is deployed via github actions on github pages for this repository.
 
 ### Environment variables
 
